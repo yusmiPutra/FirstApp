@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.putra.mobile.firstapp.MainActivity">
+
+    <EditText
+        android:id="@+id/idInputUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Input Username"
+        android:gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/idInputPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Input Password"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/btnPindah"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pindah"
+        android:textAllCaps="false"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Alert"
+        android:textAllCaps="false"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Toast"
+        android:textAllCaps="false"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:hint="+" />
+        <Button
+            android:id="@+id/btnKurang"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:hint="-" />
+        <Button
+            android:id="@+id/btnKali"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:hint="X" />
+        <Button
+            android:id="@+id/btnBagi"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="/" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txthasil"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:hint="hasil" />
+
+</LinearLayout>
